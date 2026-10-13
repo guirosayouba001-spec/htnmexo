@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+    .conteneur{
+        position: relative;
+        background-color: blueviolet;
+        width: 400px;
+        height: 150px;
+        border-radius: 10px;
+        
+        border: 2px  dashed blue;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        text-align: center;
+        margin: 1vh auto;
+        justify-content: space-between;
+
+    }
+    .conteneur h2{  
+        color: white;
+        margin-left: 5px;
+    }
+    .conteneur h5{
+        color: white;
+        margin-right: 5px;
+    }
+    .cercle{
+        position: absolute;
+        border-radius: 50%;
+        background-color: chartreuse;
+        width: 60px;
+        height: 60px;
+        left: 100px;
+        bottom: 40px;
+        
+    }
+    body{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+</style>
+<body>
+    <div class="conteneur"> 
+        <h2>QuizFoot</h2>
+        <h5>Acceuil</h5>
+        <h5>Jouer</h5>
+        <h5>Score</h5> 
+        <div class="cercle">
+           <p> G</p>
+        </div>
+    </div>
+</body>
+</html>
